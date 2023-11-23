@@ -1,0 +1,15 @@
+int g(){
+    return 42;
+}
+
+f(int x){
+    if x= 0;
+        return g();
+    else
+        return f(x-1);
+}
+
+main(){
+    f(3);
+    g();
+}
